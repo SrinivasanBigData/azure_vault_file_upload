@@ -1,6 +1,6 @@
 services:
   my_rust_app:
-    image: azure_vault_file_upload
+    image: srinivasanbigdata/azure_vault_file_upload
     volumes:
       - ./.env:/usr/src/app/.env
       - ./data:/usr/src/app/data

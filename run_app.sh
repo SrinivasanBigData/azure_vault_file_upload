@@ -9,7 +9,7 @@ fi
 # Assign arguments to variables
 SECRET_NAME="$1"
 DATA_FILE="$2"
-IMAGE_NAME="azure_vault_file_upload"
+IMAGE_NAME="srinivasanbigdata/azure_vault_file_upload"
 
 # Execute the docker run command
 docker run \

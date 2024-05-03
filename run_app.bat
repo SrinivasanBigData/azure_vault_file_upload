@@ -8,7 +8,7 @@ if "%~2" == "" (
 REM Assign arguments to variables
 set "SECRET_NAME=%~1"
 set "DATA_FILE=%~2"
-set "IMAGE_NAME=azure_vault_file_upload"
+set "IMAGE_NAME=srinivasanbigdata/azure_vault_file_upload"
 
 REM Execute the docker run command
 docker run ^

@@ -66,13 +66,30 @@ RUST_LOG=info ./azure-vault-file-upload -s <your-secret-name> -f <data-file-name
 
 ## Docker
 
-### Build Image
+### Building and Using Your Image
+
+#### Build Image
 
 You can also run this application using Docker. To build the Docker image
 
 ```bash
 docker build -t azure_vault_file_upload .
 ```
+
+If you want to build and use your own Docker image, follow these steps:
+
+- **Update `docker-compose.yml`**:
+
+  - Open the `docker-compose.yml` file.
+  - Find the `image` field under the service you want to customize.
+  - Replace the existing image name with your Docker image name.
+
+- **Update Shell Script**:
+  - Open the relevant shell script file.
+  - Look for any references to the Docker image name.
+  - Update these references with your Docker image name.
+
+Once you've made these updates, you can proceed to build and use your custom Docker image as needed.
 
 ### Create Data Directory
 
