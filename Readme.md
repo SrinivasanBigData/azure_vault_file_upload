@@ -17,7 +17,7 @@ Before using this application, ensure you have the following:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/SrinivasanBigData/azure_vault_file_upload.git
 ```
 
 Navigate into the project directory:
